@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternTheMicrosoft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{A98D38B3-7725-40EF-91A6-B34BC20A3907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethod\FactoryMethodPattern.csproj", "{0144A25D-FDD6-490D-AB74-D8719D37B850}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{0144A25D-FDD6-490D-AB74-D8719D37B850}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryMethodPattern", "AbstractFactoryMethodPattern\AbstractFactoryMethodPattern.csproj", "{84AA6792-5140-44DB-8611-570157606EC1}"
 EndProject
