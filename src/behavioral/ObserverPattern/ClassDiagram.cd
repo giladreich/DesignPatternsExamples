@@ -1,2 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ObserverPattern.PhoneDisplay" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="4" Width="3.25" />
+    <AssociationLine Name="weatherStation" Type="ObserverPattern.WeatherStation" FixedFromPoint="true">
+      <Path>
+        <Point X="4.5" Y="4.625" />
+        <Point X="3" Y="4.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PhoneDisplay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="weatherStation" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObserverPattern.TabletDisplay" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TabletDisplay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="weatherStation" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObserverPattern.WeatherStation" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAgAAAAAAAAAAAIAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>WeatherStation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ObserverPattern.IObservable">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>IObservable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObserverPattern.IObserver">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,2 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DecoratorPattern.AddonDecorator">
+    <Position X="1.5" Y="3.25" Width="2.75" />
+    <AssociationLine Name="Beverage" Type="DecoratorPattern.Beverage" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.156" Y="3.25" />
+        <Point X="2.156" Y="1.062" />
+        <Point X="3.75" Y="1.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddonDecorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Beverage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DecoratorPattern.Beverage">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorPattern.Caramel">
+    <Position X="3" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorPattern.Decaf">
+    <Position X="5.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorPattern.Espresso">
+    <Position X="7.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Espresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorPattern.Soy">
+    <Position X="0.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

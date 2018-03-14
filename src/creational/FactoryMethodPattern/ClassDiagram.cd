@@ -1,2 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FactoryMethodPattern.Animal">
+    <Position X="1.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethodPattern.Cat">
+    <Position X="2.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethodPattern.Dog">
+    <Position X="1.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethodPattern.Cow">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethodPattern.AnimalFactory" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FactoryMethodPattern.AnimalRandomFactory" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimalRandomFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Random" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Random" Collapsed="true">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="FactoryMethodPattern.IAnimalFactory">
+    <Position X="5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnimalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FactoryMethodPattern.AnimalType">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAACAEAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>IAnimalFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
