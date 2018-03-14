@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A98D38B3-7725-40EF-91A6-B34BC20A3907}</ProjectGuid>
+    <ProjectGuid>{3F30BBE2-3CC9-4929-8EAB-D446C30D149C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DecoratorPattern</RootNamespace>
-    <AssemblyName>DecoratorPattern</AssemblyName>
+    <RootNamespace>SingletonPattern</RootNamespace>
+    <AssemblyName>SingletonPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddonDecorator.cs" />
-    <Compile Include="Beverage.cs" />
-    <Compile Include="Caramel.cs" />
-    <Compile Include="Decaf.cs" />
-    <Compile Include="Espresso.cs" />
+    <Compile Include="DonaldTrump.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Soy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

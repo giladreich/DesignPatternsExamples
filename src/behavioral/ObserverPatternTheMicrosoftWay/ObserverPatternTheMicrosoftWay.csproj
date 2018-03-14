@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F30BBE2-3CC9-4929-8EAB-D446C30D149C}</ProjectGuid>
+    <ProjectGuid>{2600089D-7053-4CE0-B24D-A79144E08B87}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SingletonPattern</RootNamespace>
-    <AssemblyName>SingletonPattern</AssemblyName>
+    <RootNamespace>ObserverPatternTheMicrosoftWay</RootNamespace>
+    <AssemblyName>ObserverPatternTheMicrosoftWay</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DonaldTrump.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LocationReporter.cs" />
+    <Compile Include="LocationTracker.cs" />
+    <Compile Include="LocationUnknownException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

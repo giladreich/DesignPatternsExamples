@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0144A25D-FDD6-490D-AB74-D8719D37B850}</ProjectGuid>
+    <ProjectGuid>{F7BDE65A-2B87-404A-AD5C-FC1324990EC1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactoryMethodPattern</RootNamespace>
-    <AssemblyName>FactoryMethodPattern</AssemblyName>
+    <RootNamespace>CommandPattern</RootNamespace>
+    <AssemblyName>CommandPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="AnimalFactory.cs" />
-    <Compile Include="IAnimalFactory.cs" />
-    <Compile Include="AnimalRandomFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
