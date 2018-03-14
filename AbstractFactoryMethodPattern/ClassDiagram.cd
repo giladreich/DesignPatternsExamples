@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AbstractFactoryMethodPattern.Graphics.RadeonRx550" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\IGraphicCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Graphics.HdGraphic630" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\IGraphicCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Program" Collapsed="true">
+    <Position X="10.5" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Notebooks.Acer">
+    <Position X="2" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Notebooks\Acer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Notebooks.Dell">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Notebooks\Dell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Notebooks.Lenovo">
+    <Position X="3.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Notebooks\Lenovo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Notebooks.Notebook">
+    <Position X="2" Y="1" Width="2.75" />
+    <AssociationLine Name="GraphicCard" Type="AbstractFactoryMethodPattern.Graphics.IGraphicCard" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.312" />
+        <Point X="9" Y="2.312" />
+        <Point X="9" Y="3" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Processor" Type="AbstractFactoryMethodPattern.Processors.IProcessor" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.938" />
+        <Point X="12.75" Y="1.938" />
+        <Point X="12.75" Y="3" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAAAACAAEAAQ=</HashCode>
+      <FileName>Notebooks\Notebook.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="GraphicCard" />
+      <Field Name="Processor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Notebooks.NotebookFactory">
+    <Position X="7.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Notebooks\NotebookFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Processors.Intel7ThGen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processors\IProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryMethodPattern.Processors.Amd7ThGen" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processors\IProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AbstractFactoryMethodPattern.Graphics.IGraphicCard">
+    <Position X="7" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\IGraphicCard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactoryMethodPattern.Processors.IProcessor">
+    <Position X="11.25" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processors\IProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AbstractFactoryMethodPattern.NotebookManufacture">
+    <Position X="6.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAA=</HashCode>
+      <FileName>ManufactureEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbstractFactoryMethodPattern.ProcessorManufacture">
+    <Position X="7.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ManufactureEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbstractFactoryMethodPattern.GraphicsManufacture">
+    <Position X="5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ManufactureEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

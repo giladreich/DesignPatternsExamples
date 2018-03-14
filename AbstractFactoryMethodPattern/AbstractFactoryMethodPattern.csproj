@@ -42,18 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcerFactory.cs" />
-    <Compile Include="DellFactory.cs" />
-    <Compile Include="IGraphicCard.cs" />
-    <Compile Include="IProcessor.cs" />
-    <Compile Include="LenovoFactory.cs" />
-    <Compile Include="Manufacture.cs" />
-    <Compile Include="NotebookFactory.cs" />
+    <Compile Include="Notebooks\Acer.cs" />
+    <Compile Include="Notebooks\Dell.cs" />
+    <Compile Include="Graphics\IGraphicCard.cs" />
+    <Compile Include="Notebooks\NotebookFactory.cs" />
+    <Compile Include="Processors\IProcessor.cs" />
+    <Compile Include="Notebooks\Lenovo.cs" />
+    <Compile Include="ManufactureEnums.cs" />
+    <Compile Include="Notebooks\Notebook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
